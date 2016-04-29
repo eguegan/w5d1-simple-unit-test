@@ -1435,4 +1435,11 @@ public class Repository {
         this.defaultBranch = defaultBranch;
     }
 
+    @Override
+    public String toString() {
+        return "Repository{" +
+                "name='" + name + '\'' +
+                ", owner=" + owner +
+                '}';
+    }
 }

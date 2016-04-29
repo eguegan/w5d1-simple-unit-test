@@ -364,4 +364,10 @@ public class Owner {
         this.siteAdmin = siteAdmin;
     }
 
+    @Override
+    public String toString() {
+        return "Owner{" +
+                "login='" + login + '\'' +
+                '}';
+    }
 }
